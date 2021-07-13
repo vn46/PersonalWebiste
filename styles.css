@@ -55,6 +55,7 @@
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent;
     text-decoration: none;
+   
   
   }
   #navbar__logo {
@@ -71,6 +72,7 @@
     text-decoration: none;
     font-size: 2.5rem;
     font-family: Apple Chancery;
+    overflow-x: visible;
   }
 
   #travel__img:hover{
