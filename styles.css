@@ -44,7 +44,7 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-   background-attachment: scroll;
+    -webkit-backface-visibility: hidden;
   }
   #typewriter{
     background-color:	#4169E1;
