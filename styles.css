@@ -943,7 +943,7 @@ margin-top: -6rem;
       align-items: center;
       cursor: pointer;
       text-decoration: none;
-      font-size: 2rem;
+      font-size: 1.5rem;
       font-family: Comic Sans MS;
   
     }
@@ -956,10 +956,10 @@ margin-top: -6rem;
       -webkit-text-fill-color: transparent;
       -moz-text-fill-color: transparent;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: Comic Sans MS;
     }
-    .button_wrap1{
+    .button_wrap{
       position: fixed;
       margin-top: -15px;
       margin-left: -18px;
