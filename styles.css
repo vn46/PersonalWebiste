@@ -46,6 +46,7 @@
     -moz-text-fill-color: transparent;
     -webkit-transform: translateZ(0);
     z-index: 1000;
+    position: static;
   }
   #typewriter{
     background-color:	#4169E1;
