@@ -924,7 +924,7 @@ margin-top: -6rem;
     width: 100%;
   .
   }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 500px) {
     .footer__link--items {
       margin: 0;
       padding: 10px;
