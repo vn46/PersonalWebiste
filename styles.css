@@ -71,6 +71,7 @@
     font-size: 2.5rem;
     font-family: Apple Chancery;
   }
+
   #travel__img:hover{
     transform: scale(1.075);
     transition: 0.2s ease-in;
@@ -329,9 +330,7 @@ margin-left: -18px;
       font-size: 1.6rem;
     }
   
-    #navbar__logo {
-      padding-left: 25px;
-    }
+ 
   
     .navbar__toggle .bar {
       width: 25px;
