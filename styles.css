@@ -40,10 +40,36 @@
     background-image: linear-gradient(to top,#4169E1 0%, #1E90FF 100%);
     background-size: 100%;
     -webkit-background-clip: text;
+    text-decoration: none;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-  text-decoration: none;
+  }
+  #typewriter{
+    background-color:	#4169E1;
+      background-image: linear-gradient(to top,#4169E1 0%, #1E90FF 100%);
+      background-size: 100%;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-text-fill-color: transparent;
+    text-decoration: none;
+  
+  }
+  #navbar__logo {
+    background-color:#0066ff;
+    background-image: linear-gradient(to top, #3366ff 0%, #33ccff 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-family: Apple Chancery;
   }
   #travel__img:hover{
     transform: scale(1.075);
@@ -68,17 +94,7 @@
 #about__pic{
   border-radius: 50%;
 }
-#typewriter{
-  background-color:	#4169E1;
-    background-image: linear-gradient(to top,#4169E1 0%, #1E90FF 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-  text-decoration: none;
 
-}
 /* Popup */
 
 .overlay {
@@ -232,23 +248,7 @@ margin-left: -18px;
     padding: 0 50px;
   }
   
-  #navbar__logo {
-    background-color:#0066ff;
-    background-image: linear-gradient(to top, #3366ff 0%, #33ccff 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2.5rem;
-    font-family: Apple Chancery;
-  
 
-  }
 
   
   .navbar__menu {
