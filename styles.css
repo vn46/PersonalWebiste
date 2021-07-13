@@ -10,6 +10,7 @@
     top: 5.1rem;
     left: -10rem;
   }
+
   .card {
     /* Add shadows to create the "card" effect */
     transition: 0.3s;
@@ -243,7 +244,10 @@ margin-left: -18px;
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+    font-family: Apple Chancery;
+  
+
   }
 
   
