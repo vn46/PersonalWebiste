@@ -2,6 +2,7 @@ const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar__menu');
 const navLogo = document.querySelector('#navbar__logo');
 // smooth scrolling
+// scroll position
 
 
 // home typewriter
@@ -75,25 +76,29 @@ const highlightMenu = () => {
   const projectMenu = document.querySelector('#project-page');
  
   let scrollPos = window.scrollY;
-  // console.log(scrollPos);
+  console.log(scrollPos);
+
+// adjust scrollPos
+
+
   // adds 'highlight' class to my menu items
   if (window.innerWidth > 960 && scrollPos < 600) {
     homeMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
     projectMenu.classList.remove('highlight');
     return;
-  } else if (window.innerWidth > 960 && scrollPos < 1300) {
+  } else if (window.innerWidth > 960 && scrollPos < 1360) {
     aboutMenu.classList.add('highlight');
     homeMenu.classList.remove('highlight');
     projectMenu.classList.remove('highlight');
     
     return;
-  } else if (window.innerWidth > 960 && scrollPos < 2000) {
+  } else if (window.innerWidth > 960 && scrollPos < 4000) {
     projectMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
     homeMenu.classList.remove('highlight');
     return;
-  } else if(window.innerWidth > 960 && scrollPos < 3200){
+  } else if(window.innerWidth > 960 && scrollPos < 3700){
     projectMenu.classList.remove('highlight');
     homeMenu.classList.remove('highlight');
     aboutMenu.classList.remove('highlight');
@@ -105,6 +110,9 @@ const highlightMenu = () => {
 };
 window.addEventListener('scroll', highlightMenu);
 window.addEventListener('click', highlightMenu);
+
+
+
 //  Close mobile Menu when clicking on a menu item
 const hideMobileMenu = () => {
   const menuBars = document.querySelector('.is-active');
@@ -115,4 +123,5 @@ const hideMobileMenu = () => {
 };
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
+
 
