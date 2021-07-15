@@ -10,7 +10,9 @@
     top: 5.1rem;
     left: -10rem;
   }
-  
+  body{
+    -webkit-text-size-adjust: none;
+  }
 
   .card {
     /* Add shadows to create the "card" effect */
