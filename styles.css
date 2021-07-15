@@ -47,8 +47,10 @@
     font-weight: bold;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    width: fit-content;
    display: inline;
    overflow-x: visible;
+   overflow-y: visible;
   }
   #typewriter{
     background-color:	#4169E1;
@@ -559,9 +561,7 @@ margin-top: -6rem;
   /* Mobile Responsive */
 
   @media screen and (max-width: 1100px){
-    .project__title{
-      font-size: 2rem;
-    }
+  
  
 
     .main__content1 {
