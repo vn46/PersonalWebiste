@@ -42,7 +42,7 @@
     background-size: 100%;
     -webkit-background-clip: text;
     text-decoration: none;
-  display: inline-flex;
+    display: inline-block;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
